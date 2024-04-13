@@ -1,0 +1,14 @@
+.footer {
+  padding: 25px;
+  background-color: var(--cadet-color);
+}
+
+.footer_link {
+  text-decoration: none;
+  color: var(--general-white-color);
+}
+
+.footer_link:hover {
+  color: var(--general-black-color);
+  background-color: var(--general-white-color);
+}
