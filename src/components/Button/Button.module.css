@@ -1,0 +1,28 @@
+.button {
+  height: 48px;
+  padding: 0 16px;
+  font-family: var(--buttons-font-family);
+  font-size: 1rem;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: var(--button-box-shadow);
+  transition: box-shadow 0.15s, transform 0.15s;
+  cursor: pointer;
+  will-change: box-shadow, transform;
+  color: var(--general-black-color);
+  background-color: var(--bg-button-color);
+}
+
+.button:focus {
+  box-shadow: var(--button-focus-box-shadow);
+}
+
+.button:hover {
+  box-shadow: var(--button-hover-box-shadow);
+  transform: translateY(-2px);
+}
+
+.button:active {
+  box-shadow: var(--button-active-box-shadow);
+  transform: translateY(2px);
+}
