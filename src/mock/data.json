@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "title",
+    "checked": false,
+    "categories": [
+      { "id": 10, "title": "title", "checked": false, "parentId": 1 },
+      { "id": 11, "title": "title", "checked": false, "parentId": 1 },
+      { "id": 12, "title": "title", "checked": false, "parentId": 1 },
+      {
+        "id": 13,
+        "title": "title",
+        "checked": false,
+        "categories": [
+          { "id": 130, "title": "title", "checked": false, "parentId": 13 },
+          { "id": 131, "title": "title", "checked": false, "parentId": 13 },
+          { "id": 132, "title": "title", "checked": false, "parentId": 13 },
+          { "id": 133, "title": "title", "checked": false, "parentId": 13 },
+          {
+            "id": 134,
+            "title": "title",
+            "checked": false,
+            "categories": [
+              {
+                "id": 1340,
+                "title": "title",
+                "checked": false,
+                "parentId": 134
+              },
+              {
+                "id": 1341,
+                "title": "title",
+                "checked": false,
+                "parentId": 134
+              },
+              {
+                "id": 1342,
+                "title": "title",
+                "checked": false,
+                "parentId": 134
+              }
+            ],
+            "parentId": 13
+          }
+        ],
+        "parentId": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "title",
+    "checked": false,
+    "categories": [
+      { "id": 20, "title": "title", "checked": false, "parentId": 2 },
+      { "id": 21, "title": "title", "checked": false, "parentId": 2 },
+      { "id": 22, "title": "title", "checked": false, "parentId": 2 },
+      { "id": 23, "title": "title", "checked": false, "parentId": 2 }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "title",
+    "checked": false,
+    "categories": [
+      { "id": 30, "title": "title", "checked": false, "parentId": 3 },
+      { "id": 31, "title": "title", "checked": false, "parentId": 3 },
+      { "id": 32, "title": "title", "checked": false, "parentId": 3 }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "title",
+    "checked": false,
+    "categories": [
+      { "id": 40, "title": "title", "checked": false, "parentId": 4 },
+      { "id": 41, "title": "title", "checked": false, "parentId": 4 },
+      { "id": 42, "title": "title", "checked": false, "parentId": 4 },
+      {
+        "id": 43,
+        "title": "title",
+        "checked": false,
+        "categories": [
+          { "id": 430, "title": "title", "checked": false, "parentId": 43 },
+          { "id": 431, "title": "title", "checked": false, "parentId": 43 },
+          { "id": 432, "title": "title", "checked": false, "parentId": 43 },
+          { "id": 433, "title": "title", "checked": false, "parentId": 43 }
+        ]
+      }
+    ]
+  }
+]
