@@ -1,0 +1,24 @@
+:root {
+  /* colors */
+  --light-grey-root-color: #d3d3d3;
+  --general-white-color: #ffffff;
+  --general-black-color: #36395a;
+  --gray-asparagus-color: #465945;
+  --cadet-color: #536872;
+  --bg-button-color: #fcfcfd;
+  --ash-grey-color: #b2beb5;
+
+  /* box-shadows */
+  --button-box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  --button-focus-box-shadow: #d6d6e7 0 0 0 1.5px inset,
+    rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+    #d6d6e7 0 -3px 0 inset;
+  --button-hover-box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  --button-active-box-shadow: #d6d6e7 0 3px 7px inset;
+
+  /* fonts */
+  --main-font-family: "Open Sans", sans-serif;
+  --buttons-font-family: "JetBrains Mono", monospace;
+}
