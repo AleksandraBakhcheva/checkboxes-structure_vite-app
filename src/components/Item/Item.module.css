@@ -1,0 +1,15 @@
+.item_container {
+  width: 300px;
+  padding: 2%;
+  background-color: var(--gray-asparagus-color);
+}
+
+.hide_checkboxes {
+  display: none;
+}
+
+.show_checkboxes {
+  margin-top: 3%;
+  padding: 1%;
+  background-color: var(--ash-grey-color);
+}
